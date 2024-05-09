@@ -1,2 +1,8 @@
 @charset "UTF-8";
-/* 回答はここから */
+.q1 {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background: #a4b3e9;
+}
