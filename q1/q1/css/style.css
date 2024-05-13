@@ -1,8 +1,14 @@
 @charset "UTF-8";
-.q1 {
+.text-align {
   text-align: center;
+  background: #fff;
   width: 200px;
-  margin: 0 auto 20px;
-  padding: 20px;
+  padding: 20px 0;
+}
+
+.purple {
   background: #a4b3e9;
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
 }
