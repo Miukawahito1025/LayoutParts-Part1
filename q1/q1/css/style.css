@@ -27,3 +27,27 @@
   width: 90px;
   padding: 10px;
 }
+
+.table {
+  text-align: center;
+  font-size: 16px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.white {
+  padding: 10px;
+  background: #fff;
+  display: inline-block;
+}
+
+.flex {
+  text-align: center;
+  background: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid white 10px;
+}
