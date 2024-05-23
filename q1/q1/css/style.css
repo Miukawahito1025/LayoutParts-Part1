@@ -42,12 +42,28 @@
 }
 
 .flex {
-  text-align: center;
-  background: #fff;
   font-size: 16px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid white 10px;
+}
+
+.white {
+  padding: 10px;
+  background: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+.dark-blue {
+  position: absolute;
+  background: #a4b3e9;
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
